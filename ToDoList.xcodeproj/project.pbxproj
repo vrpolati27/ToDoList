@@ -13,6 +13,8 @@
 		953B19A71F6A8DDF00D5515D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B19A51F6A8DDF00D5515D /* Main.storyboard */; };
 		953B19A91F6A8DDF00D5515D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B19A81F6A8DDF00D5515D /* Assets.xcassets */; };
 		953B19AC1F6A8DDF00D5515D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B19AA1F6A8DDF00D5515D /* LaunchScreen.storyboard */; };
+		953B19B41F6A96F300D5515D /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B19B31F6A96F300D5515D /* List.swift */; };
+		953B19B61F6AA39F00D5515D /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B19B51F6AA39F00D5515D /* StoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		953B19A81F6A8DDF00D5515D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953B19AB1F6A8DDF00D5515D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		953B19AD1F6A8DDF00D5515D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B19B31F6A96F300D5515D /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		953B19B51F6AA39F00D5515D /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				953B19A81F6A8DDF00D5515D /* Assets.xcassets */,
 				953B19AA1F6A8DDF00D5515D /* LaunchScreen.storyboard */,
 				953B19AD1F6A8DDF00D5515D /* Info.plist */,
+				953B19B31F6A96F300D5515D /* List.swift */,
+				953B19B51F6AA39F00D5515D /* StoreData.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				953B19A41F6A8DDF00D5515D /* SecondViewController.swift in Sources */,
+				953B19B61F6AA39F00D5515D /* StoreData.swift in Sources */,
+				953B19B41F6A96F300D5515D /* List.swift in Sources */,
 				953B19A01F6A8DDF00D5515D /* AppDelegate.swift in Sources */,
 				953B19A21F6A8DDF00D5515D /* FirstViewController.swift in Sources */,
 			);
